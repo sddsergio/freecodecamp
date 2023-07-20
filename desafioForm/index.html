@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programacion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">A programar</h1>
+    <p id="description">Empezé a programar y me gustó. Desde un Hola mundo!!! para adelante.</p>
+    <form action="" id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Ingresa un nombre: 
+                <input required type="text" id="name" placeholder="Juan Perez"> 
+            </label>
+            <label id="email-label" for="email">Ingresa un email: 
+                <input required type="email" id="email" placeholder="123@abc.com">
+            </label>
+            <label id="number-label" for="number">Numero entre 0 y 9: 
+                <input type="number" id="number" min="0" max="9" placeholder="0-9">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>¿Cual es tu lenguaje preferido?</legend>
+            <label for="">
+                <select name="" id="dropdown">
+                    <option value="">Elige una opcion...</option>
+                    <option value="">JS</option>
+                    <option value="">Python</option>
+                    <option value="">JAVA</option>
+                    <option value="">C++</option>
+                    <option value="">C</option>
+                    <option value="">Go</option>
+                    <option value="">Ruby</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>¿Que mas te gustaria estudiar?</legend>
+            <label for="">
+                <input class="inline" name="opRadio" type="radio" value="opRadio">Programacion orientada a objetos
+            </label>
+            <label for="">
+                <input class="inline" name="opRadio" type="radio" name="" value="opRadio">Data science
+            </label>
+            <label for="">
+                <input class="inline" name="opRadio" type="radio" name="" value="opRadio">Big Data
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Que te parece lo mas adecuado ?</legend>
+            <label for="">
+                <input class="inline" type="checkbox" required name="" value="checkbox" />Saber lenguajes de programación.
+            </label>
+            <label for="">
+                <input class="inline" type="checkbox" required name="" value="checkbox" />Utilizar software en plataformas cruzadas.
+            </label>
+            <label for="">
+                <input class="inline" type="checkbox" required name="" value="checkbox" />Controlar las fuentes.
+            </label>
+            <label for="">
+                <input class="inline" type="checkbox" required name="" value="checkbox" />Conocer las estructuras y los algoritmos de datos.
+            </label>
+            <label for="">
+                <input class="inline" type="checkbox" required name="" value="checkbox" />Usar de editores de texto.
+            </label>
+            <label for="">
+                <input class="inline" type="checkbox" required name="" value="checkbox" />Dominar los sistemas operativos.
+            </label>
+            <label for="">
+                <input class="inline" type="checkbox" required name="" value="checkbox" />Trabajar en equipo
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="">
+                Comentarios:<textarea id="" name="" rows="3" cols="30" placeholder="Deja un comentario..."></textarea>
+            </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
+
