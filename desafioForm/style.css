@@ -1,0 +1,14 @@
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+body{
+  color: white;    background-color: #643843;
+}
+h1, p{
+  text-align: center;
+}
+a{
+  color: white;
+}
+    
